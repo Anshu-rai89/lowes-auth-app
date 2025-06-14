@@ -10,7 +10,7 @@ function HomePage() {
     const dispath = useDispatch();
     return (
         <div>
-            <h3>This is a test app</h3>
+            <h3>Welcome to Lowes Auth APP Home Page V2</h3>
             {
                 Object.values(user).length > 0 ? <div>
                     <p>{user.username}</p>
