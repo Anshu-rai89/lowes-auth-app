@@ -14,7 +14,7 @@ export const login = createAsyncThunk("auth/login", async ({userName, password})
 
 const user = localStorage.getItem("auth-user") || "{}";
 
-const authSlice = createSlice({
+export const authSlice = createSlice({
     name:"auth",
     initialState: {
         error: null,

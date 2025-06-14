@@ -24,14 +24,14 @@ console.log("User", user);
         <div>
             <h3>Login Page</h3>
             <div className='input-fields'>
-                <label>UserName</label>
-                <input value={userName} name='userName' type='text' onChange={(e) => {
+                <label htmlFor='username-inp'>UserName</label>
+                <input id="username-inp" value={userName} name='userName' type='text' onChange={(e) => {
                     setUserName(e.target.value);
                 }}/>
             </div>
             <div className='input-fields'>
-                <label>password</label>
-                <input value={password} name='password' type='text' 
+                <label htmlFor='password-inp'>password</label>
+                <input id="password-inp" value={password} name='password' type='text' 
                 onChange={
                     (e)=> {
                         setPassword(e.target.value)
