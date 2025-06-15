@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": " gh-pages -d build",
-    "test": "jest --experimental-require-module"
+    "test": "jest --experimental-require-module",
+    "test:e2e": "cypress run"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
@@ -35,6 +36,7 @@
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
     "babel-jest": "^30.0.0",
+    "cypress": "^14.4.1",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
