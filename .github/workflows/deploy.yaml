@@ -23,6 +23,9 @@ jobs:
       - name: Run Test
         run: npm run test
 
+      - name: Run E2E Test
+        run: npm run test:e2e
+
   build-and-deploy:
     needs: test
     runs-on: ubuntu-latest
