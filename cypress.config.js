@@ -5,6 +5,6 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: "http://localhost:5173/lowes-auth-app/"
+    baseUrl: "https://anshu-rai89.github.io/lowes-auth-app"
   },
 });
